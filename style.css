@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+}
+
+canvas {
+    border: 1px solid black;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+button {
+    width: 100%;
+    padding: 2.5rem;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+button:active {
+    background-color: darkred;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1.2rem;
+    background-color: gray;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
